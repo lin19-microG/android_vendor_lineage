@@ -17,6 +17,15 @@ endif
 # of microG as location provider
 PRODUCT_PACKAGE_OVERLAYS := vendor/lineage/overlay/microg
 
+# MicroG packages
+PRODUCT_PACKAGES += \
+	GmsCore \
+	GsfProxy \
+	FakeStore \
+	IchnaeaNlpBackend \
+	NominatimGeocoderBackend \
+	additional_repos.xml
+
 ifeq ($(TARGET_BUILD_VARIANT),eng)
 # Disable ADB authentication
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += ro.adb.secure=0
