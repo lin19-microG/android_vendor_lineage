@@ -23,8 +23,16 @@ PRODUCT_PACKAGES += \
 	GsfProxy \
 	FakeStore \
 	IchnaeaNlpBackend \
-	NominatimGeocoderBackend \
-	additional_repos.xml
+	NominatimGeocoderBackend
+# Bromite Webview & Browser
+PRODUCT_PACKAGES += \
+        bromite-webview \
+        Bromite
+# Aurora OSS
+PRODUCT_PACKAGES += \
+        AuroraDroid \
+        AuroraServices \
+        AuroraStore
 
 ifeq ($(TARGET_BUILD_VARIANT),eng)
 # Disable ADB authentication
