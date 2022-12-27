@@ -24,6 +24,12 @@ PRODUCT_DEFAULT_DEV_CERTIFICATE := user-keys/releasekey
 PRODUCT_OTA_PUBLIC_KEYS := user-keys/releasekey
 endif
 
+# Updater URI and changelog
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+    lineage.updater.uri=https://raw.githubusercontent.com/lin19-microG/OTA/lin-19.1-microG/$(LINEAGE_BUILD).json
+DEVICE_PACKAGE_OVERLAYS += \
+    vendor/lineage/overlay/changelog/$(LINEAGE_BUILD)
+
 # MicroG packages
 PRODUCT_PACKAGES += \
 	GmsCore \
