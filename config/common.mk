@@ -39,7 +39,6 @@ PRODUCT_PACKAGES += \
 	NominatimGeocoderBackend
 # Bromite Webview & Browser
 PRODUCT_PACKAGES += \
-        bromite-webview \
         Bromite
 # Aurora OSS
 PRODUCT_PACKAGES += \
