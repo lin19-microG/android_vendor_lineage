@@ -37,9 +37,6 @@ PRODUCT_PACKAGES += \
 	FakeStore \
 	IchnaeaNlpBackend \
 	NominatimGeocoderBackend
-# Bromite Webview & Browser
-PRODUCT_PACKAGES += \
-        Bromite
 # Aurora OSS
 PRODUCT_PACKAGES += \
         AuroraDroid \
