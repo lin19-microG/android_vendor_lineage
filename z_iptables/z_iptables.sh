@@ -35,9 +35,12 @@ com.vonglasow.michael.satstat
 eu.faircode.email
 org.bromite.bromite
 org.freeandroidtools.safetynettest
+org.lineageos.jelly
 org.microg.gms.droidguard
+org.mozilla.firefox
 org.schabi.newpipe
 org.thoughtcrime.securesms
+us.spotco.fennec_dos
 EOF
 }
 
