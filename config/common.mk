@@ -34,9 +34,7 @@ DEVICE_PACKAGE_OVERLAYS += \
 PRODUCT_PACKAGES += \
 	GmsCore \
 	GsfProxy \
-	FakeStore \
-	IchnaeaNlpBackend \
-	NominatimGeocoderBackend
+	FakeStore
 # Aurora OSS
 PRODUCT_PACKAGES += \
         AuroraDroid \
