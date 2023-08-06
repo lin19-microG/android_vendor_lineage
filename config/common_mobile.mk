@@ -52,6 +52,7 @@ endif
 
 # Customizations
 PRODUCT_PACKAGES += \
+    IconShapeCircleOverlay \
     IconShapePebbleOverlay \
     IconShapeRoundedRectOverlay \
     IconShapeSquareOverlay \
